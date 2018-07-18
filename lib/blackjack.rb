@@ -5,7 +5,6 @@ def welcome
 end
 
 def deal_card
-  binding.pry
   num = (1..11).to_a
   return num.sample
 end
