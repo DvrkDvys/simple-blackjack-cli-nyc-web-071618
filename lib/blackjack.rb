@@ -30,7 +30,7 @@ end
 def initial_round
   x = deal_card
   y = deal_card
-  total =  x+ y
+  total =  x + y
   puts "Your cards add up to #{total}"
 end
 
