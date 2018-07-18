@@ -10,7 +10,7 @@ def deal_card
 end
 
 def display_card_total(card)
-  puts (card)
+  puts card
 end
 
 def prompt_user
