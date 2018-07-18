@@ -7,7 +7,7 @@ end
 def deal_card
   binding.pry
   num = (1..11).to_a
-  return num
+  return num.sample
 end
 
 def display_card_total
