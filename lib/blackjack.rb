@@ -23,8 +23,8 @@ def get_user_input
    return i
 end
 
-def end_game
-  # code #end_game here
+def end_game(total)
+  puts "Sorry, you hit #{total}. Thanks for playing!"
 end
 
 def initial_round
