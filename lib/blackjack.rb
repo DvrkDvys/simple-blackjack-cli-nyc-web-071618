@@ -9,8 +9,8 @@ def deal_card
   return num.sample
 end
 
-def display_card_total
-  # code #display_card_total here
+def display_card_total(card)
+  puts (card)
 end
 
 def prompt_user
