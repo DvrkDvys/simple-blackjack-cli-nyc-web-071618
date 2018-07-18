@@ -32,6 +32,7 @@ def initial_round
   y = deal_card
   total =  x + y
   puts "Your cards add up to #{total}"
+  return total
 end
 
 def hit?
