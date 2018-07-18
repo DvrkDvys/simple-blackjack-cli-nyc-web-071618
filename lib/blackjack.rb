@@ -1,8 +1,11 @@
+require 'pry'
+
 def welcome
   puts "Welcome to the Blackjack Table"
 end
 
 def deal_card
+  binding.pry
   num = [1..11].sample
   return num
 end
