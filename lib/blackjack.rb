@@ -29,7 +29,7 @@ end
 
 def initial_round
 
-
+  puts "Your cards add up to
 end
 
 def hit?
